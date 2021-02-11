@@ -29,3 +29,4 @@ function scripts() {
 add_action( 'wp_enqueue_scripts', 'styles');
 add_action( 'wp_enqueue_scripts', 'css', 300);
 add_action( 'wp_enqueue_scripts', 'scripts');
+

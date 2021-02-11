@@ -1,9 +1,30 @@
 .site-header {
     margin-bottom: 0 !important;
-    background: white;
+    padding-top: 1.2rem;
+    background: $color-white;
     border-bottom: none;
 
-    .site-title a {
-        color: black; 
+    //logo
+    .site-branding img {
+        max-width: 130px;
     }
+
+    //search
+    .site-search {
+        margin-top: 2rem;
+
+        #woocommerce-product-search-field-0 {
+            background: $color-orange;
+            border-radius: 20px;
+        }
+    }
+}
+
+.main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a {
+    font-weight: bold;
+    color: white;
+}
+
+.storefront-primary-navigation {
+    background: #17c0eb;
 }

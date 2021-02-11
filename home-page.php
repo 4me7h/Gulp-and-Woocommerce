@@ -7,18 +7,7 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
-		
 		<section class="hero">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<h1 class="text-center">Petsupply</h1>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="about">
 			<div class="container">
 				<div class="row">
 					<div class="col-5">
