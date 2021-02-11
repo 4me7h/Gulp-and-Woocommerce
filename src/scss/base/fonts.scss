@@ -1,21 +1,5 @@
-//colors
-
-$color-orange:      #ff9f1a;
-$color-blue:        #17c0eb;
-$color-red:         #ff4d4d;
-
-$color-white:       #ffffff;
-
 //typo
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 $ff-p: 'Fredoka One', cursive;
 $ff-s: 'Open Sans', sans-serif;
-
-h2 {
-    font-family: $ff-p;
-}
-
-body {
-    font-family: $ff-s;
-}

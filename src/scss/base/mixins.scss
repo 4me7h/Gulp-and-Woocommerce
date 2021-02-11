@@ -1,0 +1,40 @@
+@mixin reset-list() {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+@mixin link() {
+    &,
+    &:link,
+    &:visited,
+    &:hover,
+    &:active,
+    &:focus {
+        transition: all .2s ease;
+        @content;
+    }
+}
+
+@mixin hover() {
+    &:hover,
+    &:focus {
+        @content;
+    }
+}
+
+$breakpoints: (
+    'xs': 0,
+    'sm': 576px,
+    'md': 768px,
+    'lg': 992px,
+    'xl': 1200px
+) !default;
+
+@mixin media($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media (min-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+}

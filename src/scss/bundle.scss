@@ -1,10 +1,13 @@
-//basics
-@import './basics/config.scss';
+//base
+
+@import './base/colors.scss';
+@import './base/fonts.scss';
+@import './base/mixins.scss';
+@import './base/settings.scss';
+
 
 //components
 @import './components/hero.scss';
-@import './components/copy.scss';
-@import './components/about.scss';
 
 //layouts
 @import './layouts/footer.scss';
